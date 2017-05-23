@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.lnwl.cropimg.CropImageView
+        android:id="@+id/cropImg"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00c9d0"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="lining zhen shuai"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
